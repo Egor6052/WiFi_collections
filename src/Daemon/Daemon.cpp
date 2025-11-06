@@ -14,12 +14,8 @@ Daemon::Daemon() {
     this->program_path = absolutePath() + "/build/start";
     this->working_directory = absolutePath();
 
-    // this->apiGetJson = "http://192.168.100.1:3000/signalk/v1/api/sources";
 
     // Configuration();
-
-    // this->operatingFrequency = configData["details"][0].value("operatingFrequency", 1000);
-    // this->timeout = configData["details"][0].value("timeout", 1200000);
 }
 
 
