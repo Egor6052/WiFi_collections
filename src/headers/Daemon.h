@@ -34,19 +34,10 @@ class Daemon {
         // void Configuration();
         // void ConfigFields();
 
-        // void CheckStatus(int pin, bool& status, std::string name_dump_on, std::string name_dump_off, size_t deviceIndex, std::string can_path);
-
         // std::string getCurrentDateTime();
 
         void addToStartup();
 
         void removeFromAutostart();
-        // void toggleGyroController();
 
-        // bool readControllerPowerGPIO(int status_pin);
-
-        // void CanPlayer(std::string nameFile, std::string can_path);
-        // void CanSend(std::string nameFile, std::string can_path);
-
-        std::string printStatusGyroController(int status_pin);
 };
